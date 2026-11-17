@@ -136,7 +136,7 @@ ShortForgeV2/
 └── .gitignore
 ```
 
-Additional legacy scripts are retained while the repository is being organized. The `src/shortforge.py` command and its flags describe an **older implementation** and should not be confused with the tested `main.py` workflow.
+Older implementations are archived in `legacy/`, including `legacy/shortforge.py` and `legacy/scripts/`. These files are preserved for reference and are not part of the active pipeline. Use `main.py` to run ShortForge V2.
 
 ## Current limitations
 
