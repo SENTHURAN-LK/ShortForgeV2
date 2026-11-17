@@ -1,0 +1,56 @@
+﻿# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.json
+
+# Downloaded media and generated files
+/input/*
+/output/*
+/tracking/*
+/work/*
+
+# Preserve directory structure
+!/input/.gitkeep
+!/output/.gitkeep
+!/tracking/.gitkeep
+!/work/.gitkeep
+
+# Machine learning model weights
+*.pt
+*.pth
+*.onnx
+*.engine
+*.safetensors
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Local configuration
+config.json
